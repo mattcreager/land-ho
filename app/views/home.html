@@ -1,0 +1,60 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block head %}
+  {% parent %}
+{% endblock %}
+
+{% block content %}
+  <section id="main">
+    <section id="highlights" class="col-sm-7">
+      <div class="listing" data-background="images/sample_bg.png">
+        <div class="actions pull-right">
+          <button class="btn btn-xs btn-default  edit">edit</button>
+        </div>
+        <a href="http://www.tabletennishgame.com">GoInstant Table Tennis</a>
+        <span class="description">It is better to die like a tiger, than to live like a pussy.</span>
+      </div>
+      <div class="listing editing" data-background="images/sample_bg.png">
+        <div class="actions pull-right">
+          <button class="btn btn-xs btn-default save">save</button>
+          <button class="btn btn-xs btn-danger remove">remove</button>
+        </div>
+        <input type="text" value="GoInstant Table Tennis">
+        <textarea class="description">It is better to die like a tiger, than to live like a pussy.</textarea>
+      </div>
+      <div class="listing" data-background="images/sample_bg.png">
+        <a href="http://www.tabletennishgame.com">GoInstant Table Tennis</a>
+        <span class="description">It is better to die like a tiger, than to live like a pussy.</span>
+      </div>
+    </section>
+    <section id="directory" class="col-sm-5">
+      <div class="listing">
+        <div class="listing" data-background="images/sample_bg.png">
+          <div class="actions pull-right">
+            <a href="#" class="glyphicon glyphicon-edit"></a>
+          </div>
+          <a href="http://www.tabletennishgame.com">GoInstant Table Tennis</a>
+          <span class="description">It is better to die like a tiger, than to live like a pussy.</span>
+        </div>
+         <div class="listing" data-background="images/sample_bg.png">
+          <a href="http://www.tabletennishgame.com">GoInstant Table Tennis</a>
+          <span class="description">It is better to die like a tiger, than to live like a pussy.</span>
+        </div>
+         <div class="listing" data-background="images/sample_bg.png">
+          <a href="http://www.tabletennishgame.com">GoInstant Table Tennis</a>
+          <span class="description">It is better to die like a tiger, than to live like a pussy.</span>
+        </div>
+         <div class="listing editing" data-background="images/sample_bg.png">
+          <input type="text" value="GoInstant Table Tennis">
+          <textarea class="description">It is better to die like a tiger, than to live like a pussy.</textarea>
+          <div class="actions">
+            <button class="btn btn-xs btn-default save">save</button>
+            <button class="btn btn-xs btn-danger remove">remove</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+{% endblock %}

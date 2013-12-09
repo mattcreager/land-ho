@@ -1,0 +1,106 @@
+body {
+  background: #F7F7F7;
+}
+
+#top {
+  background: #14283E;
+}
+
+#top header {
+  padding-top: 90px;
+  margin-left: 15px;
+}
+
+#top #logo {
+  display: block;
+  text-indent: -9999px;
+  background-image: url('../images/g-icon-transparent-01.png') no-repeat;
+  height: 50px;
+  width: 50px;
+}
+
+#main {
+  margin-top: 45px;
+}
+
+.listing {
+  margin-bottom: 10px;
+}
+
+.listing a, .listing input {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #009DEC;
+}
+
+input, textarea {
+  outline: none;
+}
+
+.listing .description {
+  line-height: 24px;
+}
+
+.listing input, textarea {
+  color: black;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px dotted #14283E;
+}
+
+.listing textarea {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px dotted #14283E;
+}
+
+#highlights .listing {
+  border: 1px solid #DCE5EB;
+  padding: 50px 20px 20px 20px;
+}
+
+#highlights .actions  {
+  margin-top: -30px;
+  margin-left: 7px;
+}
+
+#highlights .listing.editing {
+  background: white;
+}
+
+#directory .listing {
+  padding: 10px;
+}
+
+#directory .listing a {
+  font-size: 16px;
+}
+
+#directory .actions a {
+  color: #cccccc;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#directory .editing .actions {
+  margin-top: 15px;
+}
+
+#directory .actions a:hover {
+  color: #009DEC;
+}
+
+#directory .description {
+  color: grey;
+}
+
+#directory .listing.editing {
+  background: white;
+}
+
+#directory .listing.editing input {
+  font-size: 16px;
+}
